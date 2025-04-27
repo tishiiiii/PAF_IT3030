@@ -42,6 +42,7 @@ const App = () => {
                     element={<OAuth2RedirectHandler />}
                 />
                 <Route path="/profile" element={<Profile />} />
+                <Route path="/feedbacks" element={<FeedbacksPage />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<SignUp />} />
                 <Route path="/user-profile/:id" element={<UserProfilePage />} />
